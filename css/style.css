@@ -131,7 +131,7 @@ header{
 
 
 /*The following specifications are for when the page is printed in portrait mode. TODO: CHANGE TO PRINT*/
-@media (print) {
+@media print and (orientation: portrait){
     /*step 15: Change the font on your body to Arial with a backup value of  Helvetica*/
     body{ 
         font-family: Arial, Helvetica;
